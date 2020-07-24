@@ -1,0 +1,12 @@
+.main-wrapper{
+    border: 1px solid red;
+    min-width: 400px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+#todo-item{
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid green;
+    width: 50%;
+}
