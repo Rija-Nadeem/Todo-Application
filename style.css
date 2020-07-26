@@ -1,5 +1,4 @@
 .main-wrapper{
-    border: 1px solid red;
     min-width: 400px;
     max-width: 500px;
     margin: 0 auto;
@@ -9,4 +8,26 @@
     border: none;
     border-bottom: 1px solid green;
     width: 50%;
+    padding: 0 20px;
+}
+#todo-item:focus {
+outline: none;
+  }
+ul#list{
+  margin-top: 20px;
+    list-style: none;
+}
+#list li{
+  margin: 5px 0px;
+  text-align: left;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+}
+#list li p{
+  margin: 16px 0px;
+  /* flex-grow: 2; */
+}
+.my-btn{
+  margin: 0px 5px;
 }

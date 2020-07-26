@@ -9,7 +9,7 @@ function addTodo(){
   //Delete Button
   var delBtn = document.createElement("button");
   var delText = document.createTextNode("Delete");
-  delBtn.setAttribute("class","btn");
+  delBtn.setAttribute("class","btn btn-danger my-btn");
   delBtn.setAttribute("onclick","delItem(this)");
   delBtn.appendChild(delText);
   li.appendChild(delBtn);
@@ -18,7 +18,7 @@ function addTodo(){
   var editBtn = document.createElement("button");
   var editText = document.createTextNode("Edit");
   editBtn.appendChild(editText);
-  editBtn.setAttribute("class","btn1");
+  editBtn.setAttribute("class","btn btn-success my-btn");
   editBtn.setAttribute("onclick","editItem(this)");
   li.appendChild(editBtn);
   list.appendChild(li);
